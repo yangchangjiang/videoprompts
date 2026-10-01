@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+videoprompt_templates/__init__.py
+videoprompt_templates/__main__.py
+videoprompt_templates/cli.py
+videoprompt_templates.egg-info/PKG-INFO
+videoprompt_templates.egg-info/SOURCES.txt
+videoprompt_templates.egg-info/dependency_links.txt
+videoprompt_templates.egg-info/entry_points.txt
+videoprompt_templates.egg-info/top_level.txt
+videoprompt_templates/data/CC-BY-4.0.md
+videoprompt_templates/data/templates.json

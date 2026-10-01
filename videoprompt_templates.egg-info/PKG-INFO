@@ -1,12 +1,26 @@
+Metadata-Version: 2.4
+Name: videoprompt-templates
+Version: 1.0.0
+Summary: 100+ hand-written AI video prompt templates for 21 platforms (Sora, Kling, Runway, Veo...) — pick, search, copy. CC-BY-4.0.
+Author-email: VideoPrompt <admin@videoprompts.tools>
+License: MIT
+Project-URL: Homepage, https://videoprompts.tools/
+Project-URL: Repository, https://github.com/yangchangjiang/videoprompt-site
+Keywords: ai,video,prompts,prompt-engineering,sora,kling,text-to-video,video-to-prompt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
 # VideoPrompt — Free AI Video Prompt Generator & Video-to-Prompt
 
 **[videoprompts.tools](https://videoprompts.tools/)** — a free, private, on-device AI tool for AI video creation.
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
-![License: MIT](https://img.shields.io/badge/code-MIT-2ea44f)
-![Templates: CC-BY-4.0](https://img.shields.io/badge/templates-CC--BY--4.0-e8b45a)
-![Templates](https://img.shields.io/badge/templates-103-8b5cf6)
-![Languages](https://img.shields.io/badge/site%20languages-14-8b5cf6)
 
 - **1,890 pages · 14 languages** (EN, 中文, 日本語, 한국어, Español, Português, Français, Deutsch, العربية, हिन्दी, ไทย, Tiếng Việt, Bahasa Indonesia, Русский)
 - **21 AI video platforms** — Sora, Runway, Kling, Pika, PixVerse, Hailuo, Seedance, Veo, Luma, Krea, Haiper, Stable Video, Moonvalley, Morph, Dreamina, Wan, Hunyuan Video, CogVideoX, Firefly Video, Vidu, Movie Gen
@@ -50,23 +64,6 @@ The full **VideoPrompt template library**: 100+ hand-written video prompt templa
 Licensed under **CC-BY-4.0** — reuse and adapt freely, including commercially; keep attribution with a link to <https://videoprompts.tools/>. See `templates/CC-BY-4.0.md`.
 
 The library stays in sync with the site (exported automatically on every build); the site additionally serves all templates in 14 languages.
-
-### CLI tool (MIT)
-
-```bash
-pip install git+https://github.com/yangchangjiang/videoprompt-site.git
-```
-
-```bash
-vp-templates                          # one random template
-vp-templates random -p sora           # random Sora template
-vp-templates random -c Cinematic      # random Cinematic template
-vp-templates search "neon city"       # full-text search
-vp-templates platforms                # platform list with counts
-vp-templates count                    # total template count
-```
-
-Every printed template includes its URL on videoprompts.tools, where the same template is available in 14 languages.
 
 ## Links
 
