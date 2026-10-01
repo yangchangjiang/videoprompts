@@ -22,7 +22,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://videoprompts.tools/"
-Repository = "https://github.com/yangchangjiang/videoprompt-site"
+Repository = "https://github.com/yangchangjiang/videoprompts"
 
 [project.scripts]
 vp-templates = "videoprompt_templates.cli:main"

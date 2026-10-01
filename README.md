@@ -54,7 +54,7 @@ The library stays in sync with the site (exported automatically on every build);
 ### CLI tool (MIT)
 
 ```bash
-pip install git+https://github.com/yangchangjiang/videoprompt-site.git
+pip install git+https://github.com/yangchangjiang/videoprompts.git
 ```
 
 ```bash
