@@ -31,9 +31,19 @@ All inference runs **in the user's browser** (WebGPU). Videos, images and ideas 
 
 ## What's in this repo
 
-This repository contains the **edge worker** (`worker.js`) that serves the site and routes model weights from R2 with correct MIME types, range requests and caching, plus the deployment configuration (`wrangler.jsonc`).
+This repository contains two parts with different terms:
 
-The full site generator and content data remain private. **All rights reserved** — this code is provided for reference; no license to copy or reuse is granted.
+### `worker.js` + `wrangler.jsonc` — edge worker (reference only)
+
+The **edge worker** that serves the site and routes model weights from R2 with correct MIME types, range requests and caching, plus the deployment configuration. **All rights reserved** — provided for reference; no license to copy or reuse is granted.
+
+### `templates/` — open prompt template library (CC-BY-4.0)
+
+The full **VideoPrompt template library**: 100+ hand-written video prompt templates across 21 AI video platforms (Sora, Runway, Kling, Pika, Veo, and more), as `templates.json` (machine-readable) and `templates.md` (human-readable).
+
+Licensed under **CC-BY-4.0** — reuse and adapt freely, including commercially; keep attribution with a link to <https://videoprompts.tools/>. See `templates/CC-BY-4.0.md`.
+
+The library stays in sync with the site (exported automatically on every build); the site additionally serves all templates in 14 languages.
 
 ## Links
 
