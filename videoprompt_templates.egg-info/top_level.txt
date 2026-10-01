@@ -1,1 +1,0 @@
-videoprompt_templates

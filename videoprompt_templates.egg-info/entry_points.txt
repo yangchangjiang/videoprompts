@@ -1,2 +1,0 @@
-[console_scripts]
-vp-templates = videoprompt_templates.cli:main
